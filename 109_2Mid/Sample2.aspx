@@ -26,7 +26,7 @@
             <asp:RadioButtonList ID="rbl_Res" runat="server">
                 <asp:ListItem>是</asp:ListItem>
                 <asp:ListItem>否</asp:ListItem>
-            </asp:RadioButtonList><br />
+            </asp:RadioButtonList>
             <asp:TextBox ID="tb_Des" runat="server" Visible="False" Width="400px"></asp:TextBox><br />
             <asp:Button ID="btn_Sub" runat="server" Text="送出" /><br />
             <asp:Label ID="lb_Msg" runat="server"></asp:Label>
