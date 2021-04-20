@@ -11,8 +11,7 @@ namespace _109_2Mid {
         {
 
         }
-
-        protected void bt_Next_Click(object sender, EventArgs e)
+        protected void bt_Next_Click1(object sender, EventArgs e)
         {
 
         }

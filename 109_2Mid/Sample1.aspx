@@ -23,7 +23,7 @@
             </asp:RadioButtonList><br />
             <asp:Label ID="Label4" runat="server" Text="其他連結" Font-Size="X-Large"></asp:Label>
             <asp:HyperLink ID="HyperLink1" runat="server" Height="30px" ImageUrl="aws-brands.svg" NavigateUrl=" https://aws.amazon.com/tw/" Width="30px">HyperLink</asp:HyperLink><br />
-            <asp:Button ID="bt_Next" runat="server" Text="送出" Height="30px" Width="80px" PostBackUrl="~/Sample1Com.aspx" />
+            <asp:Button ID="bt_Next" runat="server" Text="送出" Height="30px" Width="80px" OnClick="bt_Next_Click1" PostBackUrl="~/Sample1Com.aspx" />
         </div>
     </form>
 </body>
