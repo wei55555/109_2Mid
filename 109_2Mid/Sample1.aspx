@@ -17,9 +17,9 @@
             <asp:TextBox ID="tb_Pass" runat="server" Height="15px" TextMode="Password" Width="200px"></asp:TextBox><br />
             <asp:Label ID="Label3" runat="server" Text="興趣(單選)" Font-Size="X-Large"></asp:Label>
             <asp:RadioButtonList ID="rbg_Interest" runat="server" Font-Size="X-Large" RepeatDirection="Horizontal" RepeatLayout="Flow">
-                <asp:ListItem>看書</asp:ListItem>
-                <asp:ListItem>打電動</asp:ListItem>
-                <asp:ListItem>其他</asp:ListItem>
+                <asp:ListItem Value="aa">看書</asp:ListItem>
+                <asp:ListItem Value="bb">打電動</asp:ListItem>
+                <asp:ListItem Value="cc">其他</asp:ListItem>
             </asp:RadioButtonList><br />
             <asp:Label ID="Label4" runat="server" Text="其他連結" Font-Size="X-Large"></asp:Label>
             <asp:HyperLink ID="HyperLink1" runat="server" Height="30px" ImageUrl="aws-brands.svg" NavigateUrl=" https://aws.amazon.com/tw/" Width="30px">HyperLink</asp:HyperLink><br />

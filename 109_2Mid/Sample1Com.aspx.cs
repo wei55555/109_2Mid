@@ -11,19 +11,20 @@ namespace _109_2Mid {
         {
             lb_Res.Text = Request.Form.Get("tb_Acc") + "<br />";
             lb_Res.Text = lb_Res.Text + Request.Form.Get("tb_Pass") + "<br />";
-            if (Request.Form.Get("CheckBox1") == "on")
+            if (Request.Form.Get("aa") == "on")
             {
                 lb_Res.Text = lb_Res.Text + "看書" + "<br />";
             }
-            if (Request.Form.Get("CheckBox2") == "on")
+            if (Request.Form.Get("bb") == "on")
             {
                 lb_Res.Text = lb_Res.Text + "打電動" + "<br />";
             }
-            if (Request.Form.Get("CheckBox3") == "on")
+            if (Request.Form.Get("cc") == "on")
             {
                 lb_Res.Text = lb_Res.Text + "其他" + "<br />";
             }
 
         }
-    }
+       
+}
 }
